@@ -8,8 +8,8 @@
 </head>
 <body>
 <%
-ServletContext sc = getServletContext();
-String ans1 =(String) sc.getAttribute("ans");
+
+String ans1 =(String) application.getAttribute("ans");
 String ans = request.getParameter("ans1");
 if(ans1.equalsIgnoreCase(ans))
 {

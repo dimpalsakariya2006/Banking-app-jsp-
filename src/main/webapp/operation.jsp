@@ -9,10 +9,10 @@
 <body>
 	<%
 
-ServletContext sc = getServletContext();
-Connection con = (Connection)sc.getAttribute("connection");
 
-String accno= (String) sc.getAttribute("accno");
+Connection con = (Connection)application.getAttribute("connection");
+
+String accno= (String) application.getAttribute("accno");
 	try {
 	PreparedStatement ps = con.prepareStatement("select balance,Account_Holder_name from AccountHolder where Account_number=?");
 	ps.setString(1, accno);

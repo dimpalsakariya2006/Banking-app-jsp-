@@ -34,8 +34,7 @@ String dl = dlnum.substring(2, 6);
 if(PIN.length()==4)
 {
 	try {
-	ServletContext sc = getServletContext();
-	Connection con = (Connection) sc.getAttribute("connection");
+	Connection con = (Connection) application.getAttribute("connection");
 	
 	PreparedStatement ps = con.prepareStatement("insert into AccountHolder values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 	

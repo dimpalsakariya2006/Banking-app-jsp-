@@ -12,9 +12,9 @@ response.setContentType("text/html");
 
 String accno = request.getParameter("accno");
 String PIN = request.getParameter("PIN");
-ServletContext sc = getServletContext();
-Connection con = (Connection) sc.getAttribute("connection");
-sc.setAttribute("accno", accno);
+
+Connection con = (Connection)application.getAttribute("connection");
+application.setAttribute("accno", accno);
 try {
 	PreparedStatement ps = con.prepareStatement("select PIN,Question1,Answer1,Question2,Answer2,Question3,Answer3,Question4,Answer4 from AccountHolder where Account_number=?");
 	ps.setString(1, accno);
@@ -54,7 +54,7 @@ try {
         	String ans = answers.get(i);
         	System.out.println(ans);
         	
-        	sc.setAttribute("ans", ans);
+        	application.setAttribute("ans", ans);
 
         %>	
         	<form action = 'anscheck.jsp'>
