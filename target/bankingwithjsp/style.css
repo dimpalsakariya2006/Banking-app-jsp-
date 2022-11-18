@@ -1,0 +1,234 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image:url("11.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+h2 {
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 50px;
+	color: Black;
+	margin-top: 3%;
+}
+h3{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 30px;
+	color: Black;
+	margin-top: 3%;
+	
+}
+
+#button,#button1{
+	background-color: #e7e7e7;
+	border: none;
+	color: Black;
+	padding: 20px 30px;
+	text-align: center;
+	font-size: 16px;
+	border: 2px solid black;
+	margin-top:4%;
+	margin-left:50%;
+	margin-right:50%;
+	text-align:center;
+}
+#button1{
+	width:195px;
+}
+#buttonv,#buttonw,#buttond{
+	width:20%;
+	margin-top:10%;
+	text-align:center;
+	background-color: #e7e7e7;
+	border: none;
+	color: Black;
+	padding: 20px 30px;
+	text-align: center;
+	font-size: 16px;
+	border: 2px solid black;
+	margin-top:4%;
+	margin-left:40%;
+	margin-right:40%;
+	text-align:center;
+}
+
+#button:hover,#buttonv:hover,#buttonw:hover,#buttond:hover {
+	background-color: gray;
+	opacity: 0.6;
+	color: white;
+}
+.debit{
+	font-family:Times New Roman;
+	font-size:50px;
+	text-align: left;
+	margin-top: 3%;
+}
+
+.form{
+	width: 100%;
+	text-align: left;
+	font-family: Times New Roman;
+	font-size:20px;
+	margin-left:40%;
+	margin-right:20%;
+	float:center;
+	border-style:solid black;
+	
+}
+#que{
+	font-family: Times New Roman;
+	font-size:20px;
+	margin-left:30%;
+	margin-right:20%;
+}
+.form-lable{
+	font-size:5px;
+}
+
+#accno {
+	width: 20%;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: Times New Roman;
+	padding: 8px 8px;
+	
+}
+
+#PIN{
+	width: 20%;padding : 8px 8px;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: Times New Roman;
+	
+}
+p{
+	margin-top:3%;
+	font-family:Times New Roman;
+	font-size: 20px;
+}
+
+#next {
+	width: 20%;
+	padding: 8px 8px;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+.openAccount{
+	width: 100%;
+	text-align: left;
+	font-family: Times New Roman;
+	font-size:20px;
+	float:center;
+	margin-left:20%;
+	margin-right:20%;
+	
+}
+#openbutton:hover {
+	background-color: gray;
+	opacity: 0.6;
+	color: white;
+}
+#button1:hover{
+	background-color: gray;
+	opacity: 0.6;
+	color: white;
+}
+.quepage{
+	margin-left:40%;
+	margin-right:40%;
+}
+#name,#pin,#dlnum,#balance,#openbutton{
+	width: 21%;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: Times New Roman;
+	padding: 8px 8px;
+}
+#openbutton,#next1{
+	font-size: 20px;
+	text-align:center;
+	margin-left:20%;
+	margin-right:20%;
+}
+#amount{
+	font-size: 20px;
+	padding: 8px 8px;
+	margin-top:80%;
+	margin-left:40%;
+	margin-right:40%
+	
+}
+#ans{
+	font-size: 20px;
+}
+#debit{
+	font-size: 20px;
+	padding: 8px 8px;
+	
+}
+#next1{
+	margin-left:800px;
+	margin-right:800px;
+	font-size: 20px;
+	text-align:center;
+	padding: 8px 8px;
+	width: 14%;
+	box-sizing: border-box;
+	font-family: Times New Roman;	
+}
+#next1:hover {
+	background-color: gray;
+	opacity: 0.6;
+	color: white;
+}
+#continue{
+	margin-left:760px;
+	margin-right:800px;
+	font-size: 20px;
+	text-align:center;
+	padding: 8px 8px;
+	width: 14%;
+	box-sizing: border-box;
+	font-family: Times New Roman;	
+}
+#continue:hover {
+	background-color: gray;
+	opacity: 0.6;
+	color: white;
+}
+#name{
+	margin-left: 40px;
+}
+#pin{
+	margin-left: 113px;
+}
+#dlnum{
+	margin-left: 52px;
+}
+#balance{
+	margin-left: 95px;
+}
+#date{
+	width: 15%;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: Times New Roman;
+	padding: 5px 5px;
+}
+#radio{
+	margin-left:80px;
+}
+#que1,#ans1{
+	width: 20%;
+	padding: 8px 8px;
+	margin-left: 5px;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
